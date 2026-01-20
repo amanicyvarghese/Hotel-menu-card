@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+  <div class="container-fluid">
+    <a class="navbar-brand text-white fw-bold" href="#">Tasty foods</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#orders">Orders</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Hot Deals
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#Biri">Mandhi</a></li>
+            <li><a class="dropdown-item" href="#Biri">Fried chicken</a></li>
+            <li><a class="dropdown-item" href="#Biri">Biriyani</a></li>
+            <li><a class="dropdown-item" href="#Biri">Dosa</a></li>
+            <li><a class="dropdown-item" href="#Biri">Porotta & Beef</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#footer" aria-disabled="true">Location</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+        <button class="btn btn-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+<div id="carouselExampleCaptions" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="/images/Carcousal.jpg" class=" slide d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5 class="text-white">Non-veg</h5>
+        <p class="text-white">Enjoy a variety of flavorful non-veg dishes made with fresh meat and traditional spices. Cooked to perfection for a rich and satisfying experience.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="/images/Carcousal2.jpg" class="slide d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5 class="text-white">Veg-items</h5>
+        <p class="text-white">Enjoy delicious veg dishes prepared with fresh ingredients and traditional flavors. Healthy, satisfying, and full of taste.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="/images/Carcousal3.jpg" class="slide d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5 class="text-white">Fried items</h5>
+        <p class="text-white">Crispy, golden fried items made fresh with quality ingredients. Perfectly seasoned for a crunchy and satisfying taste.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<div class="container-fluid my-3">
+  <h1 class="text-center">Order your Food Now....!</h1>
+  <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-4">
+    <div class="col" id="Biri">
+    <div class="card h-100">
+  <img src="/images/biriyani.webp" class="card-img-top img-fluid">
+  <div class="card-body">
+    <h5 class="card-title">Biriyani</h5>
+    <p class="card-text">Biryani is a rich and aromatic rice dish layered with perfectly spiced meat and fragrant basmati rice. Slow-cooked to perfection, it delivers bold flavors and irresistible aroma in every bite.</p>
+    <h2 class="text-danger">At Just..₹149.00</h2>
+    <a href="#" class="btn btn-primary">Grab yours..</a>
+  </div>
+</div>
+</div>
+
+<div class="col" id="orders">
+<div class="card h-100">
+  <img src="/images/mandhi.webp" class="card-img-top img-fluid">
+  <div class="card-body">
+    <h5 class="card-title">Mandhi</h5>
+    <p class="card-text">Mandhi features fragrant rice and juicy, slow-cooked meat infused with mild Arabian spices and a rich smoky aroma.</p>
+    <h2 class="text-danger">Starting at just...₹200.00</h2>
+    <a href="#" class="btn btn-primary">Grab yours..</a>
+  </div>
+</div>
+</div>
+
+<div class="col">
+<div class="card h-100">
+  <img src="/images/food_image_2_1080x1080.webp" class="card-img-top img-fluid">
+  <div class="card-body">
+    <h5 class="card-title">Porotta & Beef</h5>
+    <p class="card-text">Porotta & Beef is a delicious Kerala classic featuring soft, flaky porottas paired with rich, slow-cooked spicy beef curry. A hearty and flavorful combo loved by food lovers.</p>
+    <h2 class="text-danger">Combo..for Just ₹140.00</h2>
+    <a href="#" class="btn btn-primary">Grab yours...</a>
+  </div>
+</div>
+</div>
+
+<div class="col">
+<div class="card h-100">
+  <img src="./images/food_image_1_1080x1080.webp" class="card-img-top img-fluid">
+  <div class="card-body">
+    <h5 class="card-title">Dosa</h5>
+    <p class="card-text">Dosa is a thin, crispy South Indian delight made from fermented rice and lentil batter, cooked to golden perfection. Light, flavorful, and satisfying, it pairs perfectly with chutney and sambar for a classic taste experience.</p>
+    <h2 class="text-danger">For just ₹119.00</h2>
+    <a href="#" class="btn btn-primary">Grab yours...</a>
+  </div>
+  </div>
+</div>
+</div>
+</div>
+
+<div class="container-fluid my-3">
+  <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-4">
+    <div class="col" id="Biri">
+    <div class="card h-100">
+  <img src="/images/idli.webp" class="card-img-top img-fluid">
+  <div class="card-body">
+    <h5 class="card-title">Idli</h5>
+    <p class="card-text">Idli is a soft and fluffy South Indian classic made from fermented rice and lentils. Light, healthy, and comforting, it pairs perfectly with fresh chutney and hot sambar.</p>
+    <h2 class="text-danger">At Just..₹99.00</h2>
+    <a href="#" class="btn btn-primary">Grab yours..</a>
+  </div>
+</div>
+</div>
+
+<div class="col" id="orders">
+<div class="card h-100">
+  <img src="/images/kappa.webp" class="card-img-top img-fluid">
+  <div class="card-body">
+    <h5 class="card-title">Kappa & Fish curry</h5>
+    <p class="card-text">Kappa and Fish Curry is a traditional Kerala delicacy featuring soft, perfectly cooked tapioca served with rich, tangy fish curry. This classic combo delivers bold coastal flavors and comforting taste in every bite.</p>
+    <h2 class="text-danger">At just...₹150.00</h2>
+    <a href="#" class="btn btn-primary">Grab yours..</a>
+  </div>
+</div>
+</div>
+
+<div class="col">
+<div class="card h-100">
+  <img src="/images/kanji.webp" class="card-img-top img-fluid">
+  <div class="card-body">
+    <h5 class="card-title">Gruel</h5>
+    <p class="card-text">Gruel is a light and nourishing dish made from gently cooked rice, offering comfort and warmth in every spoonful. Simple, soothing, and wholesome, it is ideal for a healthy and satisfying meal.</p>
+    <h2 class="text-danger">for Just ₹80.00</h2>
+    <a href="#" class="btn btn-primary">Grab yours...</a>
+  </div>
+</div>
+</div>
+
+<div class="col">
+<div class="card h-100">
+  <img src="/images/food_set2_image_1_1080x1080.webp" class="card-img-top img-fluid">
+  <div class="card-body">
+    <h5 class="card-title">Meals</h5>
+    <p class="card-text">Meals is a wholesome traditional platter featuring steamed rice served with a variety of flavorful curries, vegetables, and sides. Balanced, satisfying, and comforting, it offers a complete dining experience in every serving.</p>
+    <h2 class="text-danger">For just ₹50.00</h2>
+    <a href="#" class="btn btn-primary">Grab yours...</a>
+  </div>
+  </div>
+</div>
+</div>
+</div>
+
+  <footer class="container-fluid bg-warning py-4">
+    <div class="row justify-content-center align-items-center text-center">
+
+      <!-- Location Details -->
+      <div class="col-12 col-md-4 mb-3 mb-md-0">
+        <h5 class="text-dark">Tasty Food Restaurant</h5>
+        <p class="mb-1">Kozhikode</p>
+        <p class="mb-1">Kerala</p>
+        <p class="mb-1">Tel: 9765361262</p>
+        <p class="mb-1">Email: tastyfoods123@gmail.com</p>
+        <p class="mb-0">Website: www.tastyfoods.com</p>
+      </div>
+
+      <!-- Google Map -->
+      <div class="col-auto">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d311.477014542517!2d75.80781487638154!3d11.264801753880148!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1768828140749!5m2!1sen!2sin"
+          width="300"
+          height="300"
+          style="border:0;"
+          loading="lazy"
+          allowfullscreen>
+        </iframe>
+      </div>
+
+    </div>
+  </footer>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html> 
